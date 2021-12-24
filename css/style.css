@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body {
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+
+.container__main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+    background-image: url(https://storage.builderall.com//franquias/2/538/editor-html/8696002.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container__main__box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 85%;
+    height: 100vh;
+}
+.container__main__box__img {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 15%;
+    height: 17%;
+}
+.container__main__box__img--logo {
+    width: 70%;
+    height: 100%;
+}
+.container__main__box__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    height: 17%;
+}
+.container__main__box__header--nav {
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.container__main__box__text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    height: 30%;
+}
+.container__main__box__text--span {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    font-size: 60px;
+    line-height: 70px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-family: Montserrat Semi Bold,sans-serif;
+}
+.container__main__box__text2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+}
+.container__main__box__text--span2 {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-family: sans-serif;
+}
+#container__main__box__text__span2--span {
+    color: rgb(255, 184, 34);
+}
+.container__main__box__whatsapp {
+    display: flex;
+    width: 20%;
+    height: 10%;
+    border: 1px solid red;
+}
+.container__main__box__whatsapp--logo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 70%;
+    height: 70%;
+}
+a
