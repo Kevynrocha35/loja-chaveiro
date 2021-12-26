@@ -91,14 +91,21 @@ html, body {
 .container__main__box__whatsapp {
     background-color:#feb721;
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 23%;
     height: 10%;
     border-radius: 900px;
 }
+.container__main__box__whatsapp > span {
+    font-family: Montserrat Semi Bold, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #221111; 
+}
 .container__main__box__whatsapp--logo {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    width: 70%;
-    height: 70%;
+    width: 15%;
+    height: 40%;
+    margin-left: 7px;
 }
