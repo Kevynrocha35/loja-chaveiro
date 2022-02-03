@@ -49,13 +49,12 @@ html, body {
     width: 35%;
     height: 17%;
 }
-/* .container__home__box__header--nav:hover {
+.container__home__box__header--nav {
     font-family: Montserrat, sans-serif;
     font-size: 15px;
     font-weight: 700;
     color: rgb(255, 255, 255);
-    background-color: blue;
-} */
+}
 .container__home__box__text {
     display: flex;
     flex-direction: row;
@@ -119,9 +118,6 @@ html, body {
 
 .container__sobre {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    align-items: center;
     width: 1366px;
     height: 613px;
 }
