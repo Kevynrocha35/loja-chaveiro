@@ -133,19 +133,11 @@ html, body {
     width: 249px;
     height: 372px;
 }
-.container__sobre__box__right--span {
-    width: 263px;
-    height: 61px;
-}
-.container__sobre__box__right--span2 {
-    width: 301px;
-    height: 22px;
-}
-.container__sobre__box__right--paragrafo {
-    width: 633px;
-    height: 133px;
-}
-.container__sobre__box__right--span3 {
-    width: 144px;
-    height: 29px;
+.container__sobre__box__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;   
+    height: 50%;   
 }
