@@ -120,22 +120,45 @@ html, body {
     display: flex;
     width: 1366px;
     height: 613px;
-    flex-flow: column wrap;
-    align-items: flex-end;
+    flex-flow: row wrap;
 }
-.container__sobre__box--imagem {
+.container__sobre__header {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    flex-flow: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.container__sobre__middle {
+    display: flex;
+    width: 100%;   
+    height: 80%;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+.container__sobre__middle__imagem {
+    display: flex;
+    align-self: flex-start;
     width: 249px;
     height: 372px;
 }
-#container__sobre__box--img {
+#container__sobre__middle__imagem--img {
     width: 100%;
     height: 100%;
 }
-.container__sobre__box__right {
+.container__sobre__middle__texto {
+    width: 60%;
+    height: 100%;
+}
+.container__sobre__middle__texto--paragrafo {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    width: 80%;   
-    height: 50%;   
+    width: 100%;
+    height: 50%;
+}
+.container__sobre__middle__texto__spans {
+    width: 100%;
+    height: 30%;
 }
