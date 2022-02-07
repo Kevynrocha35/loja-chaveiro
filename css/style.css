@@ -19,7 +19,7 @@ html, body {
     justify-content: center;
     width: 1366px;
     height: 613px;
-    background-image: url(https://storage.builderall.com//franquias/2/538/editor-html/8696002.jpg);
+    background-image: url(/img/home.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -120,18 +120,16 @@ html, body {
     display: flex;
     width: 1366px;
     height: 613px;
+    flex-flow: column wrap;
+    align-items: flex-end;
 }
-.container__sobre__box {
-    display: flex;
-    justify-content: center;
-    width: 83%;
-    height: 100%;
-
-}
-.container__sobre__box img {
-    display: inline;
+.container__sobre__box--imagem {
     width: 249px;
     height: 372px;
+}
+#container__sobre__box--img {
+    width: 100%;
+    height: 100%;
 }
 .container__sobre__box__right {
     display: flex;
