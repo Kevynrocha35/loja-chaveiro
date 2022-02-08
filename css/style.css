@@ -130,6 +130,22 @@ html, body {
     align-items: center;
     justify-content: flex-end;
 }
+.container__sobre__header--span {
+    font-size: 50px;
+    font-weight: 700;
+    color: #fdb722;
+    font-family: Montserrat Semi Bold, sans-serif;
+    position: relative;
+    left: 10px;
+}
+.container__sobre__header--span2 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Montserrat Semi Bold, sans-serif;
+    position: relative;
+    left: 15px;
+}
 .container__sobre__middle {
     display: flex;
     width: 100%;   
@@ -155,10 +171,20 @@ html, body {
 .container__sobre__middle__texto--paragrafo {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 99%;
     height: 50%;
+    font-family: Montserrat, sans-serif;
+    font-weight: 100;
+    line-height: 25px;
 }
 .container__sobre__middle__texto__spans {
-    width: 100%;
-    height: 30%;
+    width: 70%;
+    height: 10%;
+}
+.container__sobre__middle__spans--span {
+    margin-right: 30px;
+    width: 30%;
+    height: 70%;
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
 }
