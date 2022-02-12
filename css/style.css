@@ -8,12 +8,14 @@ html, body {
     height: 100vh;
 }
 
+/* container PRINCIPAL da página */
 .container__main {
     display: flex;
     flex-flow: row wrap;
     width: 100%;
     height: 100%;
 }
+/* container HOME */
 .container__home {
     display: flex;
     justify-content: center;
@@ -116,6 +118,7 @@ html, body {
     margin-left: 7px;
 }
 
+/* container SOBRE NÓS */
 .container__sobre {
     display: flex;
     width: 1366px;
@@ -187,4 +190,39 @@ html, body {
     height: 70%;
     font-family: Montserrat, sans-serif;
     font-size: 24px;
+}
+
+/* container SERVIÇOS */
+.container__servicos {
+    width: 1366px;
+    height: 1503px;
+    background-image: url(/img/controlecarro.png);
+    background-size: cover;
+    background-position: fixed center;
+}
+.container__servicos__header {
+    display: flex;
+    width: 100%;
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+.container__servicos__header--span:nth-child(1) {
+    width: 22%;
+    height: 25%;
+    font-size: 50px;
+    font-family: var, sans-serif;
+    color: #fff;
+    font-weight: 700;
+    position: relative;
+    top: 30px;
+}
+.container__servicos__header--span:nth-child(2) {
+    width: 25%;
+    height: 10%;
+    font-family: var, sans-serif;
+    color: #fff;
+    position: relative;
+    top: 50px;
 }
