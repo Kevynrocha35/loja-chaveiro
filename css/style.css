@@ -198,7 +198,7 @@ html, body {
     height: 1503px;
     background-image: url(/img/controlecarro.png);
     background-size: cover;
-    background-position: fixed center;
+    background-position: center;
 }
 .container__servicos__header {
     display: flex;
@@ -207,6 +207,8 @@ html, body {
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
+    padding-top: 30px;
+    margin-bottom: 10px;
 }
 .container__servicos__header--span:nth-child(1) {
     width: 22%;
@@ -215,14 +217,25 @@ html, body {
     font-family: var, sans-serif;
     color: #fff;
     font-weight: 700;
-    position: relative;
-    top: 30px;
 }
 .container__servicos__header--span:nth-child(2) {
     width: 25%;
     height: 10%;
     font-family: var, sans-serif;
     color: #fff;
-    position: relative;
-    top: 50px;
+    margin-top: 30px;
+}
+.container__servicos__cards {
+    display: flex;
+    width: 100%;
+    height: 85%;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.container__servicos__cards__card {
+    display: flex;
+    width: 60%;
+    height: 18%;
+    
 }
