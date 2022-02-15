@@ -2,18 +2,15 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
     text-decoration: none;
-    outline: solid 1px red;
+    /* outline: solid 1px red; */
 }
-html {
-    min-width: 100vw;
-    max-width: 100vw;
+body { 
     min-height: 100vh;
+    width: 100%; 
 }
-body {
-    width: 100%;
-    height: 100%;
-}
+
 
 /* container PRINCIPAL da página */
 .container__main {
@@ -47,7 +44,7 @@ body {
     width: 15%;
     height: 17%;
 }
-.container__home__box__img--logo {
+.container__home__box__img > img {
     width: 70%;
     height: 100%;
 }
@@ -58,20 +55,20 @@ body {
     width: 35%;
     height: 17%;
 }
-.container__home__box__header--nav {
+.container__home__box__header > span > a {
     font-family: Montserrat, sans-serif;
     font-size: 15px;
     font-weight: 700;
     color: rgb(255, 255, 255);
 }
-.container__home__box__text {
+.container__home__box__textMain {
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 90%;
     height: 30%;
 }
-.container__home__box__text--span {
+.container__home__box__textMain > span {
     display: flex;
     justify-content: flex-start;
     width: 100%;
@@ -82,14 +79,14 @@ body {
     font-weight: bolder;
     font-family: Montserrat Semi Bold,sans-serif;
 }
-.container__home__box__text2 {
+.container__home__box__textSecondary {
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 100%;
     height: 10%;
 }
-.container__home__box__text--span2 {
+.container__home__box__textSecondary > span {
     display: flex;
     justify-content: flex-start;
     width: 100%;
@@ -99,7 +96,7 @@ body {
     font-weight: 500;
     font-family: sans-serif;
 }
-#container__home__box__text__span2--span {
+.container__home__box__textSecondary > span > span {
     color: rgb(255, 184, 34);
 }
 .container__home__box__whatsapp {
@@ -115,10 +112,10 @@ body {
 .container__home__box__whatsapp > span {
     font-family: Montserrat Semi Bold, sans-serif;
     font-size: 18px;
-    font-weight: 600;
-    color: #211111; 
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.996);
 }
-.container__home__box__whatsapp--logo {
+.container__home__box__whatsapp > img {
     display: flex;
     width: 15%;
     height: 35%;
@@ -140,7 +137,7 @@ body {
     align-items: center;
     justify-content: flex-end;
 }
-.container__sobre__header--span {
+.container__sobre__header > span:first-child {
     font-size: 50px;
     font-weight: 700;
     color: #fdb722;
@@ -148,7 +145,7 @@ body {
     position: relative;
     left: 10px;
 }
-.container__sobre__header--span2 {
+.container__sobre__header > span:last-child {
     margin-top: 10px;
     font-size: 18px;
     font-weight: 400;
@@ -164,13 +161,13 @@ body {
     align-items: center;
     justify-content: flex-end;
 }
-.container__sobre__middle__imagem {
+#container__sobre__middle__imagem {
     display: flex;
     align-self: flex-start;
     width: 249px;
     height: 372px;
 }
-#container__sobre__middle__imagem--img {
+#container__sobre__middle__imagem > img {
     width: 100%;
     height: 100%;
 }
@@ -178,7 +175,7 @@ body {
     width: 60%;
     height: 100%;
 }
-.container__sobre__middle__texto--paragrafo {
+.container__sobre__middle__texto > p {
     display: flex;
     align-items: center;
     width: 99%;
@@ -191,7 +188,7 @@ body {
     width: 70%;
     height: 10%;
 }
-.container__sobre__middle__spans--span {
+.container__sobre__middle__spans > span {
     margin-right: 30px;
     width: 30%;
     height: 70%;
