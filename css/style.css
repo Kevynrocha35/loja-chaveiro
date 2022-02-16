@@ -188,7 +188,7 @@ body {
     width: 70%;
     height: 10%;
 }
-.container__sobre__middle__spans > span {
+.container__sobre__middle__texto__spans > span {
     margin-right: 30px;
     width: 30%;
     height: 70%;
@@ -215,7 +215,7 @@ body {
     padding-top: 30px;
     margin-bottom: 10px;
 }
-.container__servicos__header--span:nth-child(1) {
+.container__servicos__header > span:first-child {
     width: 22%;
     height: 25%;
     font-size: 50px;
@@ -223,7 +223,7 @@ body {
     color: #fff;
     font-weight: 700;
 }
-.container__servicos__header--span:nth-child(2) {
+.container__servicos__header > span:last-child {
     width: 25%;
     height: 10%;
     font-family: var, sans-serif;
@@ -242,5 +242,62 @@ body {
     display: flex;
     width: 60%;
     height: 18%;
-    
+    background-color: #fefefe;
+    border-radius: 10px;
+    box-shadow: rgb(145, 145, 145) 0px 0px 100px 0px;
+    justify-content: space-between;
+}
+.container__servicos__cards__card > figure {
+    display: flex;
+    width: 30%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+.container__servicos__cards__card > div {
+    display: flex;
+    width: 65%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.container__servicos__cards__card > div > span {
+    font-family: Montserrat Semi Bold,sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.container__servicos__cards__card > div > a {
+    background-color:#feb721;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 25%;
+    border-radius: 900px;
+    box-shadow: 1px 1px 20px 1px #feb721;
+}
+.container__servicos__cards__card > div > a > span {
+    font-family: Montserrat Semi Bold, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.996);
+}
+.container__servicos__cards__card > div > a > img {
+    display: flex;
+    width: 15%;
+    height: 35%;
+    margin-left: 7px;
+}
+#card--1 > figure > img {
+    width: 162px;
+    height: 180px;
+}
+#card--2 > figure > img {
+    width: 206px;
+    height: 137px;
+}
+#card--3 > figure > img {
+    width: 206px;
+    height: 116px;
 }
