@@ -113,12 +113,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.996);
-}
-.container__home__box__whatsapp > img {
-    display: flex;
-    width: 15%;
-    height: 35%;
-    margin-left: 7px;
+    margin: 5px;
 }
 
 /* container SOBRE NÓS */
@@ -281,12 +276,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.996);
-}
-.container__servicos__cards__card > div > a > img {
-    display: flex;
-    width: 15%;
-    height: 35%;
-    margin-left: 7px;
+    margin: 5px;
 }
 #card--1 > figure > img {
     width: 162px;
@@ -341,10 +331,5 @@ body {
     font-weight: 400;
     color: rgba(0, 0, 0, 0.996);
     font-weight: 700;
-}
-#card--4 > a > img {
-    display: flex;
-    width: 15%;
-    height: 35%;
-    margin-left: 7px;
+    margin: 5px;
 }
