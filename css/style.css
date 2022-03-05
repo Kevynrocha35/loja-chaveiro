@@ -41,23 +41,24 @@ body {
     align-items: center;
     justify-content: flex-start;
     width: 15%;
-    height: 17%;
+    height: 25%;
 }
 .container__home__box__img > img {
-    width: 70%;
+    width: 100%;
     height: 100%;
 }
 .container__home__box__header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 8px;
     width: 35%;
     height: 17%;
 }
 .container__home__box__header > span > a {
     font-family: Montserrat, sans-serif;
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 400;
     color: rgb(255, 255, 255);
 }
 .container__home__box__textMain {
