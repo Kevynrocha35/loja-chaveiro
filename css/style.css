@@ -24,7 +24,7 @@ body {
     justify-content: center;
     width: 1280px;
     height: 613px;
-    background-image: url(/img/home.jpg);
+    background-image: url(../img/home.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -195,7 +195,7 @@ body {
 .container__servicos {
     width: 1280px;
     height: 1503px;
-    background-image: url(/img/controlecarro.png);
+    background-image: url(../img/controlecarro.png);
     background-size: cover;
     background-clip: border-box;
     
