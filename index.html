@@ -16,37 +16,42 @@
 
 <body>
     <!-- |||CONTAINER PRINCIPAL||| -->
-    <div class="container__main">
+    <div id="container__main">
 
         <!-- ||SEÇÃO HOME|| -->
-        <section class="container__home">
-            <div class="container__home__box">
+        <section id="container__home">
+            <div class="container__home-box">
 
-                <!-- |logo| -->
-                <figure class="container__home__box__img">
-                    <img src="img/logo-car.png" alt="logo chaveiro">
-                </figure>
+                <!-- |cabeçalho| -->
+                <header class="container__home-box__header">
+                    <!-- logo -->
+                    <figure class="container__home-box__header__logo">
+                        <img src="img/logo-car.png" alt="logo chaveiro">
+                    </figure>
 
-                <!-- |navegação| -->
-                <header class="container__home__box__header">
-                    <a href=""><span>Home</span></a>
-                    <a href=""><span>Sobre Nós</span></a>
-                    <a href=""><span>Serviços</span></a>
-                    <a href=""><span>Contato</span></a>
+                    <!-- navegação -->
+                    <nav class="container__home-box__header__nav">
+                        <ul class="container__home-box__header__nav--ul">
+                            <li><a href=""><span>Home</span></a></li>
+                            <li><a href=""><span>Serviços</span></a></li>
+                            <li><a href=""><span>Sobre</span></a></li>
+                            <li><a href=""><span>Contato</span></a></li>
+                        </ul>
+                    </nav>
                 </header>
 
                 <!-- |bloco central| -->
-                <div class="container__home__box__textMain">
-                    <span>Perdeu, quebrou ou<br> danificou a chave<br> do seu carro?</span>
+                <div class="container__home-box__middle">
+                    <span>Perdeu, quebrou ou<br> danificou a chave do<br> seu carro?</span>
                 </div>
 
                 <!-- |bloco secundário| -->
-                <div class="container__home__box__textSecondary">
+                <div class="container__home-box__middle-smaller">
                     <span>Atendemos emergência<span>&nbsp;24 horas.</span></span>
                 </div>
 
                 <!-- |Whatsapp contato| -->
-                <a class="container__home__box__whatsapp" href="">
+                <a class="container__home-box__whatsapp" href="">
                     <span>Entre em contato</span>
                     <i class="fa-brands fa-whatsapp"></i>
                 </a>
