@@ -103,7 +103,7 @@ body {
     color: rgb(255, 255, 255);
 }
 
-/* |bloco central| */
+/* |bloco texto central| */
 .container__home-box__middle {
     display: flex;
     align-items: center;
@@ -121,7 +121,7 @@ body {
     font-family: Montserrat Semi Bold,sans-serif;
 }
 
-/* |bloco secundário| */
+/* |bloco texto secundário| */
 .container__home-box__middle-smaller {
     display: flex;
     align-items: center;
@@ -201,7 +201,7 @@ body {
 }
 
 /* |bloco principal| */
-.container__sobre__middle {
+.container__about__middle {
     display: flex;
     width: 100%;   
     height: 80%;
@@ -209,22 +209,26 @@ body {
     align-items: center;
     justify-content: flex-end;
 }
-#container__sobre__middle__imagem {
+
+/* chave png */
+#container__about__middle__imagem {
     display: flex;
     align-self: flex-start;
     justify-content: flex-end;
     width: 30%;
     height: 75%;
 }
-#container__sobre__middle__imagem > img {
+#container__about__middle__imagem > img {
     max-width: 100%;
     height: 100%;
 }
-.container__sobre__middle__texto {
+
+/* blocos de texto paragrafo */
+.container__about__middle__texto {
     width: 60%;
     height: 100%;
 }
-.container__sobre__middle__texto > p {
+.container__about__middle__texto > p {
     display: flex;
     align-items: center;
     width: 99%;
@@ -233,11 +237,11 @@ body {
     font-weight: 100;
     line-height: 25px;
 }
-.container__sobre__middle__texto__spans {
+.container__about__middle__texto__spans {
     width: 70%;
     height: 10%;
 }
-.container__sobre__middle__texto__spans > span {
+.container__about__middle__texto__spans > span {
     margin-right: 30px;
     width: 30%;
     height: 70%;
