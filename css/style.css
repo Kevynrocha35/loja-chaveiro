@@ -12,7 +12,7 @@ body {
 }
 
 
-/* CONTAINER PRINCIPAL */
+/* |||CONTAINER PRINCIPAL||| */
 #container__main {
     display: flex;
     flex-wrap: wrap;
@@ -20,7 +20,7 @@ body {
     height: 100%;
 }
 
-/* // SEÇÃO HOME // */
+/* ||SEÇÃO HOME|| */
 #container__home {
     display: flex;
     justify-content: center;
@@ -43,7 +43,7 @@ body {
     height: 100%;
 }
 
-/* |cabeçalho| */
+/* |CABEÇALHO| */
 .container__home-box__header {
     display: flex;
     align-items: center;
@@ -103,15 +103,20 @@ body {
     color: rgb(255, 255, 255);
 }
 
-/* |bloco texto central| */
-.container__home-box__middle {
+/* |CONTEÚDO PRINCIPAL| */
+.container__home-box__main-content {
+    
+}
+
+/* bloco texto */
+.container__home-box__main-content__text {
     display: flex;
     align-items: center;
     width: 100%;
     height: 35%;
     margin-bottom: 20px;
 }
-.container__home-box__middle > span {
+.container__home-box__main-content__text > span {
     width: 100%;
     height: 100%;
     font-size: 60px;
@@ -121,15 +126,15 @@ body {
     font-family: Montserrat Semi Bold,sans-serif;
 }
 
-/* |bloco texto secundário| */
-.container__home-box__middle-smaller {
+/* bloco texto */
+.container__home-box__main-content__text-small {
     display: flex;
     align-items: center;
     width: 100%;
     height: 10%;
     margin-bottom: 15px;
 }
-.container__home-box__middle-smaller > span {
+.container__home-box__main-content__text-small > span {
     display: flex;
     width: 100%;
     height: 100%;
@@ -138,7 +143,7 @@ body {
     font-weight: 500;
     font-family: sans-serif;
 }
-.container__home-box__middle-smaller > span > span {
+.container__home-box__main-content__text-small > span > span {
     color: rgb(255, 184, 34);
 }
 
@@ -163,7 +168,7 @@ body {
 
 
 /* ||SEÇÃO SOBRE NÓS|| */
-.container__sobre {
+.container__about {
     display: flex;
     width: 1280px;
     height: 613px;
@@ -175,7 +180,7 @@ body {
 }
 
 /* |cabeçalho| */
-.container__sobre__header {
+.container__about__header {
     display: flex;
     width: 100%;
     height: 20%;
@@ -183,7 +188,7 @@ body {
     align-items: center;
     justify-content: flex-end;
 }
-.container__sobre__header > span:first-child {
+.container__about__header > span:first-child {
     font-size: 50px;
     font-weight: 700;
     color: #fdb722;
@@ -191,7 +196,7 @@ body {
     position: relative;
     left: 10px;
 }
-.container__sobre__header > span:last-child {
+.container__about__header > span:last-child {
     margin-top: 10px;
     font-size: 18px;
     font-weight: 400;
@@ -201,7 +206,7 @@ body {
 }
 
 /* |bloco principal| */
-.container__about__middle {
+.container__about__main-content {
     display: flex;
     width: 100%;   
     height: 80%;
@@ -211,24 +216,24 @@ body {
 }
 
 /* chave png */
-#container__about__middle__imagem {
+#container__about__main-content__image {
     display: flex;
     align-self: flex-start;
     justify-content: flex-end;
     width: 30%;
     height: 75%;
 }
-#container__about__middle__imagem > img {
+#container__about__main-content__image > img {
     max-width: 100%;
     height: 100%;
 }
 
 /* blocos de texto paragrafo */
-.container__about__middle__texto {
+.container__about__main-content__textarea {
     width: 60%;
     height: 100%;
 }
-.container__about__middle__texto > p {
+.container__about__main-content__textarea > p {
     display: flex;
     align-items: center;
     width: 99%;
@@ -237,11 +242,11 @@ body {
     font-weight: 100;
     line-height: 25px;
 }
-.container__about__middle__texto__spans {
+.container__about__main-content__textarea__spans {
     width: 70%;
     height: 10%;
 }
-.container__about__middle__texto__spans > span {
+.container__about__main-content__textarea__spans > span {
     margin-right: 30px;
     width: 30%;
     height: 70%;
