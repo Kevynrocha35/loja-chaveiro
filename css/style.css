@@ -26,6 +26,10 @@ body {
     justify-content: center;
     width: 1280px;
     height: 613px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
     background-image: url(../img/home.jpg);
     background-size: cover;
     background-position: center;
@@ -163,6 +167,10 @@ body {
     display: flex;
     width: 1280px;
     height: 613px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
     flex-flow: row wrap;
 }
 
@@ -204,12 +212,13 @@ body {
 #container__sobre__middle__imagem {
     display: flex;
     align-self: flex-start;
-    width: 249px;
-    height: 372px;
+    justify-content: flex-end;
+    width: 30%;
+    height: 75%;
 }
 #container__sobre__middle__imagem > img {
     max-width: 100%;
-    height: auto;
+    height: 100%;
 }
 .container__sobre__middle__texto {
     width: 60%;
@@ -241,6 +250,10 @@ body {
 .container__servicos {
     width: 1280px;
     height: 1503px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
     background-image: url(../img/controlecarro.png);
     background-size: cover;
     background-clip: border-box;
@@ -333,19 +346,19 @@ body {
 /* card: TROCA DE SEGREDO */
 #card--1 > figure > img {
     max-width: 100%;
-    height: 180px;
+    height: 85%;
 }
 
 /* card: ABERTURA DE AUTOMÓVEIS */
 #card--2 > figure > img {
     max-width: 100%;
-    height: 137px;
+    height: 60%;
 }
 
 /* card: CHAVES CODIFICADAS */
 #card--3 > figure > img {
     max-width: 100%;
-    height: 116px;
+    height: 50%;
 }
 
 /* card: E MUITO MAIS */
@@ -394,3 +407,32 @@ body {
 }
 
 /* || SEÇÃO CARTÃO VIRTUAL || */
+
+
+
+/* RESPONSIVIDADE */
+/* @media screen and (min-width: 340px) and (max-width: 568px) {
+    * {
+        outline: solid 1px red;
+    }
+}
+@media screen and (min-width: 568px) and (max-width: 768px) {
+    * {
+        outline: solid 1px blue;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 968px) {
+    * {
+        outline: solid 1px green;
+    }
+}
+@media screen and (min-width: 968px) and (max-width: 1024px) {
+    * {
+        outline: solid 1px yellow;
+    }
+}
+@media screen and (min-width: 1024px) {
+    * {
+        outline: solid 1px cyan;
+    }
+} */
