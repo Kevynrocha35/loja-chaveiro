@@ -6,9 +6,11 @@
     text-decoration: none;
     /* outline: solid 1px red; */
 }
-body {
+html, body {
     min-height: 100vh;
-    width: 100%; 
+    width: 100%;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
 }
 
 
@@ -102,7 +104,7 @@ body {
     height: 50%;
     text-align: center;
     font-family: Montserrat, sans-serif;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 400;
     color: rgb(255, 255, 255);
 }
@@ -126,8 +128,8 @@ body {
 .container__home-box__main-content__text > span {
     width: 100%;
     height: 100%;
-    font-size: 60px;
-    line-height: 70px;
+    font-size: 4rem;
+    line-height: 4.4rem;
     color: rgb(255, 255, 255);
     font-weight: bolder;
     font-family: Montserrat Semi Bold,sans-serif;
@@ -428,12 +430,28 @@ body {
 
 
 /* RESPONSIVIDADE */
-/* @media screen and (min-width: 340px) and (max-width: 568px) {
-    * {
-        outline: solid 1px red;
-    }
+@media screen and (min-width: 340px) and (max-width: 568px) {
+/* ROOT */
+:root {
+        font-size: 8px;
 }
-@media screen and (min-width: 568px) and (max-width: 768px) {
+
+/* ||SEÇÃO HOME|| */
+.container__home-box__header {
+    display: flex;
+    justify-content: center;
+}
+.container__home-box__header__nav {
+    display: none;
+}
+.container__home-box__header__logo {
+    width: auto;
+    height: 100%;
+}
+
+    
+}
+/* @media screen and (min-width: 568px) and (max-width: 768px) {
     * {
         outline: solid 1px blue;
     }
