@@ -1,1 +1,1 @@
-<h1>Site virtual para serviços de chaveiro</h1>
+<h1 align="center"> Site para serviço especializado em chaveiros </h1>
