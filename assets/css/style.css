@@ -206,7 +206,7 @@ html, body {
     color: #fdb722;
     font-family: Montserrat Semi Bold, sans-serif;
     position: relative;
-    left: 10px;
+    left: 11px;
 }
 .container__about__header > span:last-child {
     margin-top: 10px;
@@ -214,7 +214,7 @@ html, body {
     font-weight: 400;
     font-family: Montserrat Semi Bold, sans-serif;
     position: relative;
-    left: 15px;
+    left: 16px;
 }
 
 /* |conteudo principal| */
@@ -285,14 +285,14 @@ html, body {
     display: flex;
     width: 100%;
     height: 15%;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    flex-flow: column wrap;
     padding-top: 30px;
     margin-bottom: 10px;
 }
 .container__servicos__header > span:first-child {
-    width: 22%;
+    text-align: center;
+    width: 100%;
     height: 25%;
     font-size: 5rem;
     font-family: var, sans-serif;
@@ -300,8 +300,10 @@ html, body {
     font-weight: 700;
 }
 .container__servicos__header > span:last-child {
-    width: 25%;
+    text-align: center;
+    width: 100%;
     height: 10%;
+    font-size: 1.6rem;
     font-family: var, sans-serif;
     color: #fff;
     margin-top: 30px;
@@ -454,7 +456,31 @@ html, body {
     text-align: center;
     font-size: 4rem;
 }
+.container__home-box__main-content__text-small {
+    height: 20%
+}
+.container__home-box__main-content__text-small > span {
+    display: inline-block;
+}
+.container__home-box__main-content__text-small > span > span {
+    display: inline-block;
+}
+.container__home-box__main-content__whatsapp {
+    width: 70%;
+    font-size: 3.6rem;
+    align-self: center;
+}
+.container__home-box__main-content__whatsapp > span {
+    font-size: 3rem;
+}
 
+
+/* ||SEÇÃO SERVIÇOS|| */
+.container__servicos__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 }
 
 /* @media screen and (min-width: 480px) and (max-width: 768px) {
