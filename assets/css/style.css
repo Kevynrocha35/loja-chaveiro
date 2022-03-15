@@ -26,12 +26,8 @@ html, body {
 .container__home {
     display: flex;
     justify-content: center;
-    width: 1280px;
-    height: 613px;
-    min-width: 100%;
-    max-width: 100%;
-    min-height: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: 100vh;
     background-image: url(../img/home.jpg);
     background-size: cover;
     background-position: center;
@@ -182,12 +178,8 @@ html, body {
 /* ||SEÇÃO SOBRE NÓS|| */
 .container__about {
     display: flex;
-    width: 1280px;
-    height: 613px;
-    min-width: 100%;
-    max-width: 100%;
-    min-height: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: 100vh;
     flex-flow: row wrap;
 }
 
@@ -268,29 +260,23 @@ html, body {
 
 
 /* ||SEÇÃO SERVIÇOS|| */
-.container__servicos {
-    width: 1280px;
-    height: 1503px;
-    min-width: 100%;
-    max-width: 100%;
-    min-height: 100%;
-    max-height: 100%;
+.container__services {
+    width: 100%;
+    min-height: 100vh;
     background-image: url(../img/controlecarro.png);
     background-size: cover;
     background-clip: border-box;
 }
 
 /* |cabeçalho| */
-.container__servicos__header {
+.container__services__header {
     display: flex;
     width: 100%;
-    height: 15%;
+    height: 20%;
     flex-direction: column;
     justify-content: center;
-    padding-top: 30px;
-    margin-bottom: 10px;
 }
-.container__servicos__header > span:first-child {
+.container__services__header > span:first-child {
     text-align: center;
     width: 100%;
     height: 25%;
@@ -299,7 +285,7 @@ html, body {
     color: #fff;
     font-weight: 700;
 }
-.container__servicos__header > span:last-child {
+.container__services__header > span:last-child {
     text-align: center;
     width: 100%;
     height: 10%;
@@ -310,15 +296,15 @@ html, body {
 }
 
 /* |cards bloco principal| */
-.container__servicos__cards {
+.container__services__cards {
     display: flex;
     width: 100%;
-    height: 85%;
+    height: 80%;
     flex-flow: column wrap;
     align-items: center;
     justify-content: space-around;
 }
-.container__servicos__cards__card {
+.container__services__cards__card {
     display: flex;
     width: 60%;
     height: 18%;
@@ -327,14 +313,14 @@ html, body {
     box-shadow: rgb(145, 145, 145) 0px 0px 100px 0px;
     justify-content: space-between;
 }
-.container__servicos__cards__card > figure {
+.container__services__cards__card > figure {
     display: flex;
     width: 30%;
     height: 100%;
     align-items: center;
     justify-content: flex-end;
 }
-.container__servicos__cards__card > div {
+.container__services__cards__card > div {
     display: flex;
     width: 65%;
     height: 100%;
@@ -342,13 +328,13 @@ html, body {
     justify-content: space-around;
     align-items: flex-start;
 }
-.container__servicos__cards__card > div > span {
+.container__services__cards__card > div > span {
     font-family: Montserrat Semi Bold,sans-serif;
     font-size: 3rem;
     font-weight: bolder;
     color: #000033;
 }
-.container__servicos__cards__card > div > a {
+.container__services__cards__card > div > a {
     background-color:#feb721;
     display: flex;
     align-items: center;
@@ -357,7 +343,7 @@ html, body {
     height: 25%;
     border-radius: 900px;
 }
-.container__servicos__cards__card > div > a > span {
+.container__services__cards__card > div > a > span {
     font-family: Montserrat Semi Bold, sans-serif;
     font-size: 1.8rem;
     font-weight: 400;
@@ -434,54 +420,22 @@ html, body {
 
 
 /* |||RESPONSIVIDADE||| */
-@media screen and (min-width: 320px) and (max-width: 480px) {
-
-html, body {
+/* @media screen and (min-width: 320px) and (max-width: 480px) { */
+/* ROOT */
+/* html, body {
     font-size: 37.5%;
-}
+} */
 
 /* ||SEÇÃO HOME|| */
-.container__home-box__header {
-    display: flex;
-    justify-content: center;
-}
-.container__home-box__header__nav {
-    display: none;
-}
-.container__home-box__header__logo {
-    width: auto;
-    max-height: 100%;
-}
-.container__home-box__main-content__text > span {
-    text-align: center;
-    font-size: 4rem;
-}
-.container__home-box__main-content__text-small {
-    height: 20%
-}
-.container__home-box__main-content__text-small > span {
-    display: inline-block;
-}
-.container__home-box__main-content__text-small > span > span {
-    display: inline-block;
-}
-.container__home-box__main-content__whatsapp {
-    width: 70%;
-    font-size: 3.6rem;
-    align-self: center;
-}
-.container__home-box__main-content__whatsapp > span {
-    font-size: 3rem;
-}
 
 
 /* ||SEÇÃO SERVIÇOS|| */
-.container__servicos__header {
+/* .container__servicos__header {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-}
+} */
+/* } */
 
 /* @media screen and (min-width: 480px) and (max-width: 768px) {
     
