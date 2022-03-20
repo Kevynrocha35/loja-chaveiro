@@ -1,5 +1,5 @@
 /* ||SEÇÃO SERVIÇOS|| */
-.container__services {
+.services {
     width: 100%;
     height: 1503px;
     background-image: url(../img/controlecarro.png);
@@ -8,14 +8,14 @@
 }
 
 /* |cabeçalho| */
-.container__services__header {
+.services__header {
     display: flex;
     width: 100%;
     height: 15%;
     flex-direction: column;
     justify-content: center;
 }
-.container__services__header > span:first-child {
+.services__header > span:first-child {
     text-align: center;
     width: 100%;
     height: 25%;
@@ -24,7 +24,7 @@
     color: #fff;
     font-weight: 700;
 }
-.container__services__header > span:last-child {
+.services__header > span:last-child {
     text-align: center;
     width: 100%;
     height: 10%;
@@ -35,7 +35,7 @@
 }
 
 /* |cards container| */
-.container__services__cards {
+.services__cards {
     display: flex;
     width: 100%;
     height: 85%;
@@ -43,7 +43,7 @@
     align-items: center;
     justify-content: space-around;
 }
-.container__services__cards__card {
+.services__cards__card {
     display: flex;
     width: 55%;
     height: 15%;
@@ -52,14 +52,14 @@
     box-shadow: rgb(145, 145, 145) 0px 0px 100px 0px;
     justify-content: space-between;
 }
-.container__services__cards__card > figure {
+.services__cards__card > figure {
     display: flex;
     width: 30%;
     height: 100%;
     align-items: center;
     justify-content: flex-end;
 }
-.container__services__cards__card > div {
+.services__cards__card > div {
     display: flex;
     width: 65%;
     height: 100%;
@@ -67,13 +67,13 @@
     justify-content: space-around;
     align-items: flex-start;
 }
-.container__services__cards__card > div > span {
+.services__cards__card > div > span {
     font-family: Montserrat Semi Bold,sans-serif;
     font-size: 3rem;
     font-weight: bolder;
     color: #000033;
 }
-.container__services__cards__card > div > a {
+.services__cards__card > div > a {
     background-color:#feb721;
     display: flex;
     align-items: center;
@@ -82,7 +82,7 @@
     height: 25%;
     border-radius: 900px;
 }
-.container__services__cards__card > div > a > span {
+.services__cards__card > div > a > span {
     font-family: Montserrat Semi Bold, sans-serif;
     font-size: 1.8rem;
     font-weight: 400;

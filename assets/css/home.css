@@ -1,24 +1,17 @@
 /* ||SEÇÃO HOME|| */
-.container__home {
+.home {
     display: flex;
-    justify-content: center;
     width: 100%;
     height: 100vh;
+    flex-flow: column wrap;
+    padding: 0px 80px;
     background-image: url(../img/home.jpg);
     background-size: cover;
     background-position: center;
 }
-.container__home-box {
-    display: flex;
-    flex-flow: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 85%;
-    height: 100%;
-}
 
 /* |cabeçalho| */
-.container__home-box__header {
+.home__header {
     display: flex;
     align-items: center;
     width: 100%;
@@ -26,13 +19,13 @@
 }
 
 /* logo */
-.container__home-box__header__logo {
+.home__header__logo {
     width: 12%;
     height: 100%;
-    margin-right: 5px;
 }
-.container__home-box__header__logo > img {
+.home__header__logo > img {
     width: 100%;
+    height: auto;
     max-height: 100%;
     border: 5px solid rgba(0, 0, 0, 0.0);
     border-radius: 50%;
@@ -40,26 +33,26 @@
 }
 
 /* navegação */
-.container__home-box__header__nav {
+.home__header__nav {
     display: flex;
     align-items: center;
-    width: 87%;
+    width: 88%;
     height: 100%;
 }
-.container__home-box__header__nav--ul {
+.home__header__nav--ul {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     width: 45%;
     height: 40%;
 }
-.container__home-box__header__nav--ul > li {
+.home__header__nav--ul > li {
     display: flex;
     justify-content: center;
     width: 25%;
     height: 100%;
 }
-.container__home-box__header__nav--ul > li > a {
+.home__header__nav--ul > li > a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,11 +60,11 @@
     width: 100%;
     height: 100%;
 }
-.container__home-box__header__nav--ul > li > a:hover {
+.home__header__nav--ul > li > a:hover {
     background: rgba(0, 0, 0, .50);
     border-radius: 3px;
 }
-.container__home-box__header__nav--ul > li > a > span {
+.home__header__nav--ul > li > a > span {
     width: 80%;
     height: 50%;
     text-align: center;
@@ -82,7 +75,7 @@
 }
 
 /* |conteudo principal| */
-.container__home-box__main-content {
+.home__main-content {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -91,13 +84,13 @@
 }
 
 /* bloco texto */
-.container__home-box__main-content--span {
+.home__main-content--span {
     display: flex;
     align-items: center;
     width: 100%;
     height: 30%;
 }
-.container__home-box__main-content--span > span {
+.home__main-content--span > span {
     width: 100%;
     height: 100%;
     font-size: 6rem;
@@ -108,13 +101,13 @@
 }
 
 /* bloco texto */
-.container__home-box__main-content--span-small {
+.home__main-content--span-small {
     display: flex;
     align-items: center;
     width: 100%;
     height: 12%;
 }
-.container__home-box__main-content--span-small > span {
+.home__main-content--span-small > span {
     display: flex;
     width: 65%;
     height: 100%;
@@ -123,12 +116,12 @@
     font-weight: 500;
     font-family: sans-serif;
 }
-.container__home-box__main-content--span-small > span > span {
+.home__main-content--span-small > span > span {
     color: rgb(255, 184, 34);
 }
 
 /* |Whatsapp contato| */
-.container__home-box__main-content__whatsapp {
+.home__main-content__whatsapp {
     background-color:#feb721;
     display: flex;
     align-items: center;
@@ -138,7 +131,7 @@
     border-radius: 900px;
     box-shadow: 1px 1px 20px 1px #feb721;
 }
-.container__home-box__main-content__whatsapp > span {
+.home__main-content__whatsapp > span {
     font-family: Montserrat Semi Bold, sans-serif;
     font-size: 1.8rem;
     font-weight: 400;
