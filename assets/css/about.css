@@ -42,14 +42,14 @@
 }
 
 /* chave png */
-.about__main-content__image {
+.about__main-content__picture {
     display: flex;
     align-self: flex-start;
     justify-content: flex-end;
     width: 30%;
     height: 75%;
 }
-.about__main-content__image > img {
+.about__main-content__picture > img {
     max-width: 100%;
     height: 100%;
 }
