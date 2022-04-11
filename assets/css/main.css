@@ -1,0 +1,24 @@
+/* Default CSS */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html {
+    font-size: 62.5%; /* 10px root */
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    text-rendering: optimizeLegibility;
+}
+
+/* |||CONTAINER PRINCIPAL||| */
+#container-main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh;
+}
