@@ -5,7 +5,7 @@
   <img src="https://user-images.githubusercontent.com/71854074/159138405-4d8af2a5-9934-44c5-bce5-ca871571efa5.jpg"/>
 </div>
 
-## Tecnologias implementadas no projeto
+## Tecnologias que implementei no projeto
 
 <ul> 
   <li>HTML</li>
@@ -13,4 +13,3 @@
   <li>Responsividade</li>
   <li>Acessibilidade</li>
 </ul>
-
