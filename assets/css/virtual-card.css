@@ -19,7 +19,7 @@
     padding: 40px;
     background-color: #fefefe;
     border-radius: 10px;
-    box-shadow: rgb(145, 145, 145) 0px 0px 100px 0px;
+    box-shadow: rgb(88, 81, 65) 0px 0px 20px 2px;
 }
 .virtual-card__card > figure {
     display: flex;
