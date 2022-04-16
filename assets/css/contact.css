@@ -1,5 +1,29 @@
 .contact {
     width: 100%;
-    height: 1000px;
-    background-color:  rgba(255,184,34,0.26);
+    height: 600px;
+    background-color:  #fdfdfd;
+}
+
+/* |CABEÇALHO| */
+.contact__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 25%;
+}
+.contact__header > h2 {
+    font-size: 4.5rem;
+    font-family: var, sans-serif;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(0, 0, 51);
+}
+.contact__header > span {
+    font-family: var, sans-serif;
+    text-align: center;
+    font-size: 1.6rem;
+    color: #000;
+    margin-top: 15px;
 }
