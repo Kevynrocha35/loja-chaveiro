@@ -29,16 +29,16 @@
 }
 
 /* |mapa & form| */
-.contact__map-form {
+.contact__main-content {
     width: 100%;
     height: 75%;
     padding: 1px;
 }
-.contact__form {
+.contact__main-content__form {
     width: 50%;
     height: 100%;
 }
-.input {
+.contact__main-content__form--input {
     height: 40px;
     width: 35%;
     border-radius: 7px;
