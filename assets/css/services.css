@@ -16,6 +16,7 @@
     height: 15%;
     flex-direction: column;
     justify-content: center;
+    padding-top: 10px;
 }
 .services__header > span:first-child {
     width: 100%;
@@ -24,7 +25,8 @@
     font-family: var, sans-serif;
     text-align: center;
     color: #fff;
-    font-weight: 700;
+    font-weight: 500;
+    margin-top: 30px;
 }
 .services__header > span:last-child {
     text-align: center;
@@ -47,8 +49,8 @@
 }
 .services__cards__card {
     display: flex;
-    width: 55%;
-    height: 15%;
+    width: 61%;
+    height: 18%;
     background-color: #fefefe;
     border-radius: 10px;
     box-shadow: rgb(145, 145, 145) 0px 0px 100px 0px;
