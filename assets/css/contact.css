@@ -63,8 +63,9 @@
     height: 40px;
     font-size: 16px;
     border: 1px solid #DFDFDF;
-    color: #626262;
+    color: #000;
     padding: 7px;
+    border: 1px solid #cbcbcb;
 }
 #mensagem {
     height: 80px;
