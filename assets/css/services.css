@@ -5,6 +5,8 @@
     background-image: url(../img/controlecarro.png);
     background-size: cover;
     background-clip: border-box;
+    background-attachment: fixed;
+    background-position-y: 1000px;
 }
 
 /* |cabeçalho| */
