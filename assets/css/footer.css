@@ -36,3 +36,10 @@
     width: 88%;
     height: 100%;
 }
+.footer__nav--ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 45%;
+    height: 40%;
+}
