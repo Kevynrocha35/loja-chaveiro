@@ -30,7 +30,7 @@
     width: 100%;
     height: 50%;
 }
-.footer > nav {
+.footer > footer > nav {
     display: flex;
     align-items: center;
     width: 88%;
