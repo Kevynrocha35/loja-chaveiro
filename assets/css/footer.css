@@ -33,7 +33,7 @@
 .footer > footer > nav {
     display: flex;
     align-items: center;
-    width: 88%;
+    width: 50%;
     height: 100%;
 }
 .footer__nav--ul {
