@@ -43,3 +43,9 @@
     width: 45%;
     height: 40%;
 }
+.footer__nav--ul > li {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+}
