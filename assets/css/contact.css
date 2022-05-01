@@ -30,14 +30,15 @@
 
 /* |mapa & form| */
 .contact__main-content {
+    display: flex;
     width: 100%;
     height: 75%;
     padding: 1px;
 }
-/* contact__main-content__map {
+.contact__main-content__map {
     width: 50%;
     height: 100%;
-} */
+}
 .contact__main-content__form {
     display: flex;
     flex-direction: column;
@@ -59,7 +60,7 @@
     margin: 10px;
 }
 .form--input {
-    width: 85%;
+    width: 90%;
     height: 40px;
     font-size: 16px;
     border: 1px solid #DFDFDF;
