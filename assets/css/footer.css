@@ -74,3 +74,9 @@
     font-weight: 400;
     color: rgb(255, 255, 255);
  }
+.copyright > a {
+    font-size: 13px;
+    font-family:Montserrat Semi Bold,sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
