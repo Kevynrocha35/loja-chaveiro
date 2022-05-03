@@ -72,10 +72,11 @@
     height: 80px;
 }
 .contact__main-content__form > button {
-    width: 40%;
-    height: 12%;
+    width: 42%;
+    height: 11%;
     background-color:#feb721;
     border-radius: 900px;
-    color: #000;
+    font-size: 20px;
+    color: #fff;
     margin-left: 150px;
 }
